@@ -1,7 +1,7 @@
 html,
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #f5e8ba;
+  background-color: white;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,18 +13,27 @@ body {
   align-items: center;
   justify-content: center;
   background-image: url("https://images.unsplash.com/photo-1645226880663-81561dcab0ae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 100%;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
+
+}
+
+body,
+html {
+  height: 100%;
 }
 
 .container {
   backdrop-filter: blur(16px);
-    background-color: rgba(1, 0, 68, 0.527);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(1, 0, 68, 0.527);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 10px 24px;
   border-radius: 20px;
   width: 490px;
-  
+
 }
 
 h1 {
@@ -111,6 +120,6 @@ button {
   margin: 0.2em 0em;
 }
 
-button:hover{
+button:hover {
   transform: scale(1.02);
 }
